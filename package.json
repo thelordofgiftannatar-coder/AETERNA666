@@ -1,0 +1,19 @@
+{
+  "name": "valiryan-player",
+  "version": "1.0.0",
+  "private": true,
+  "description": "VALIRYAN player — web app + Android app (Capacitor)",
+  "scripts": {
+    "icons": "python3 scripts/make-icons.py",
+    "android:add": "cap add android && bash scripts/apply-android-icons.sh",
+    "android:sync": "cap sync android && bash scripts/apply-android-icons.sh",
+    "android:open": "cap open android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^6.2.1",
+    "@capacitor/core": "^6.2.1"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^6.2.1"
+  }
+}

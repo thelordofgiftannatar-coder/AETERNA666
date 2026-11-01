@@ -1,0 +1,9 @@
+{
+  "appId": "com.valiryan.player",
+  "appName": "Valiryan",
+  "webDir": "www",
+  "backgroundColor": "#0a0c0f",
+  "android": {
+    "allowMixedContent": false
+  }
+}
